@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    font-family: normal;
+    background-color: rgb(99, 7, 7);
+}
+.container{
+    background: white;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0 2px 20px;
+    outline: thick ridge white;
+    border: thick solid white;
+    word-spacing: 10px;
+    min-height: 50px;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.list ol{
+    list-style-type: circle;
+    display: flex;
+    letter-spacing: 1.5px;
+}
+.line h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 100%;
+}
+h5{
+    float: right;
+}
